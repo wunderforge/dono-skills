@@ -1,0 +1,9 @@
+reports/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+secrets/
+*.pem
+*.key
