@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "name": "sw-premise-theme",
+  "published_path": "screenwriting/sw-premise-theme",
+  "upstream": {
+    "url": "https://github.com/jtydhr88/screenwriting-skills/tree/a152b8c055be36cbb741ed2d13a8dd4a84c26902/plugins/screenwriting/skills/sw-premise-theme",
+    "commit": "a152b8c055be36cbb741ed2d13a8dd4a84c26902",
+    "sha256": "5952ddc0585af8091922f4ab5309cf7e9a4f551f96d6bb24d8a62d2191c968fe",
+    "license_spdx": "MIT",
+    "license_source_url": "https://github.com/jtydhr88/screenwriting-skills/blob/main/LICENSE"
+  },
+  "derivative": {
+    "sha256": "4be1720b89dc70fbefe5bf3df76f12c46705d2c9ee8d49d3942db55faa68e075",
+    "changed_files": [
+      "SKILL.md",
+      "terms.md"
+    ],
+    "modifications": [
+      "Preserved upstream MIT license and substantive screenwriting content.",
+      "Wrapped descriptions as YAML block scalars; spaced prose slash separators so they are not mistaken for filesystem references.",
+      "Included the shared terminology reference locally and marked unrelated optional opera modules as outside this independent package.",
+      "In the series module only, replaced two literary quotes with labelled paraphrases to remove ambiguous security-tool vocabulary; no scanner suppression."
+    ]
+  },
+  "prepared_at": "2026-09-15T04:26:59.901Z"
+}
