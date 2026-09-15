@@ -2,7 +2,7 @@
 
 [![SkillSpector](https://github.com/wunderforge/dono-skills/actions/workflows/skillspector.yml/badge.svg)](https://github.com/wunderforge/dono-skills/actions/workflows/skillspector.yml)
 
-A categorized collection of agent skills, starting with Chinese poetry composition and validation.
+A categorized collection of agent skills for Chinese poetry and video direction.
 
 ## 目录 / Catalog
 
@@ -15,11 +15,19 @@ literature/
         ├── scripts/validate_poem.py
         ├── references/
         └── examples/
+
+media/
+└── video/
+    └── ogilvideo-local/
+        ├── SKILL.md
+        ├── LICENSE
+        └── references/project-direction.md
 ```
 
 | 分类 | Skill | 能力 |
 | --- | --- | --- |
 | literature / poem | [classical-chinese-poetry](literature/poem/classical-chinese-poetry/SKILL.md) | 写作、修改、评析五绝、七绝、五律、七律；平水韵与平仄辅助检查 |
+| media / video | [ogilvideo-local](media/video/ogilvideo-local/SKILL.md) | 创业大赛 60 秒开场 pitch 导演：叙事、旁白、逐镜头时间线、即梦提示词与审片；含 BN 热界面膜项目参考 |
 
 The exact installable directory is [literature/poem/classical-chinese-poetry](https://github.com/wunderforge/dono-skills/tree/main/literature/poem/classical-chinese-poetry).
 Use that URL with an Agent Skills installer such as agent-capability-lab.
@@ -27,6 +35,14 @@ Use that URL with an Agent Skills installer such as agent-capability-lab.
 Example: `用 classical-chinese-poetry 写一首七绝：秋夜湖边，怀念故友，含蓄温暖。`
 
 Python 3 enables the bundled validator. No third-party Python packages are needed for poetry validation. The skill also supports reference-based checks without Python. Modern poetry, lyrics and ci forms are outside this skill's scope; ambiguous readings and literary quality still require judgment.
+
+### Video direction
+
+The exact installable directory is [media/video/ogilvideo-local](https://github.com/wunderforge/dono-skills/tree/main/media/video/ogilvideo-local).
+
+Example: `用 ogilvideo-local 为创业大赛设计 60 秒开场 pitch，给出旁白、逐镜头表、即梦提示词和素材缺口，结尾衔接现场路演。`
+
+This is a written direction workflow adapted from Ogilvideo, with no bundled executable scripts or required API credentials. Media generation and inspection use the tools available to the agent. The BN film reference is a project brief, not independently verified evidence; replace its product facts and audience when adapting it to another project. The upstream MIT license is retained in the skill directory.
 
 ## Security checks
 
