@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "name": "sw-character-conflict",
+  "published_path": "screenwriting/sw-character-conflict",
+  "upstream": {
+    "url": "https://github.com/jtydhr88/screenwriting-skills/tree/a152b8c055be36cbb741ed2d13a8dd4a84c26902/plugins/screenwriting/skills/sw-character-conflict",
+    "commit": "a152b8c055be36cbb741ed2d13a8dd4a84c26902",
+    "sha256": "009cfbb66e9b5386c6cd385c590d4660d459249f4f4676daabbc0baeaed2ac88",
+    "license_spdx": "MIT",
+    "license_source_url": "https://github.com/jtydhr88/screenwriting-skills/blob/main/LICENSE"
+  },
+  "derivative": {
+    "sha256": "6f8af4cce94d21a41e36a36c6f915d8272402cd78bedee2c0ab787a309d4587e",
+    "changed_files": [
+      "SKILL.md",
+      "terms.md"
+    ],
+    "modifications": [
+      "Preserved upstream MIT license and substantive screenwriting content.",
+      "Wrapped descriptions as YAML block scalars; spaced prose slash separators so they are not mistaken for filesystem references.",
+      "Included the shared terminology reference locally and marked unrelated optional opera modules as outside this independent package.",
+      "In the series module only, replaced two literary quotes with labelled paraphrases to remove ambiguous security-tool vocabulary; no scanner suppression."
+    ]
+  },
+  "prepared_at": "2026-09-15T04:27:24.400Z"
+}
