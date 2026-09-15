@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "name": "sound-effects",
+  "published_path": "audio-production/sound-effects",
+  "upstream": {
+    "url": "https://github.com/elevenlabs/skills/tree/main/sound-effects",
+    "commit": "9edcbd4b80ed57b8e07a3f86ea520333969fbc3c",
+    "sha256": "bf4bbe80b9bc479d739a67bdff9f80361fe9f9dca406b3c89837055cb7bd6a3d",
+    "license_spdx": "MIT",
+    "license_source_url": "https://github.com/elevenlabs/skills/blob/main/LICENSE"
+  },
+  "derivative": {
+    "sha256": "fd5bba7ddb874091211b1c466baa1f55e91c70df98eeea42f0dbbd27c8c1f075",
+    "changed_files": [
+      "SKILL.md",
+      "guide.md",
+      "references/installation.md"
+    ],
+    "modifications": [
+      "Replaced install-and-run shell pipeline, unpinned global installation and inline credential examples with a reviewed-version installation procedure and private user authentication.",
+      "Preserved full generation reference content in guide.md and routed to it from a small scoped entrypoint; all files remain inside the scanned package.",
+      "Added explicit per-action budget, upload, voice-consent, commercial-rights, no-overwrite and sanitized-error gates; declared tool scope.",
+      "Preserved upstream MIT license. No paid API requests or candidate scripts executed."
+    ]
+  },
+  "prepared_at": "2026-09-15T04:51:26.514Z"
+}
