@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "name": "customer-research",
+  "published_path": "customer-discovery/customer-research",
+  "upstream": {
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/customer-research",
+    "commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "sha256": "5ca205b093697d2fc7c9f8b12ff69f68f7b05129abd6a96e067889310f7687ca",
+    "license_spdx": "MIT",
+    "license_source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/LICENSE"
+  },
+  "derivative": {
+    "sha256": "2e7e70b76bfb86436b7d22a2e85756a806b84a6482627e9f9eec3c63d5f5d5f0",
+    "changed_files": [
+      "SKILL.md",
+      "references/interviews-and-surveys.md",
+      "references/source-guides.md"
+    ],
+    "modifications": [
+      "Declared read-only file and public web research tools.",
+      "Added explicit non-action boundaries for outreach, forms, messaging, publishing, purchases, and external accounts.",
+      "Removed unbundled follow-on skill and integration references.",
+      "Rephrased prose slashes and template placeholders that the reference resolver falsely interpreted as local paths.",
+      "Kept bundled interview, survey, and source guides self-contained.",
+      "Preserved the upstream MIT license unchanged."
+    ]
+  },
+  "prepared_at": "2026-09-15T03:56:27.105Z"
+}
