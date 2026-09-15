@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "name": "music",
+  "published_path": "audio-production/music",
+  "upstream": {
+    "url": "https://github.com/elevenlabs/skills/tree/main/music",
+    "commit": "9edcbd4b80ed57b8e07a3f86ea520333969fbc3c",
+    "sha256": "34546b17a686885e6a95d20cee94fffc27a565199e69918699dd9e2ed514aa01",
+    "license_spdx": "MIT",
+    "license_source_url": "https://github.com/elevenlabs/skills/blob/main/LICENSE"
+  },
+  "derivative": {
+    "sha256": "eb8d8be180468ef0491a08e5c97bef3ad41d7f1f0eaec53b62eeab851bd71be6",
+    "changed_files": [
+      "SKILL.md",
+      "guide.md",
+      "references/installation.md"
+    ],
+    "modifications": [
+      "Kept original generation feature documentation in a scanned guide; narrowed the entrypoint to explicit production authorization and rights gates.",
+      "Removed remote installer execution and inline credential configuration; user handles authentication privately.",
+      "Declared network documentation capability. For TTS, replaced low-level credential-file-loading WebSocket setup with an authenticated-transport integration contract while retaining streaming SDK examples, message protocol, timing and alignment guidance.",
+      "Preserved LICENSE.upstream, added no scanner exceptions, and performed no paid API calls."
+    ]
+  },
+  "prepared_at": "2026-09-15T04:54:44.796Z"
+}
