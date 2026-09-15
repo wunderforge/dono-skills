@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "name": "market-research",
+  "published_path": "market-research/market-research",
+  "upstream": {
+    "url": "https://github.com/affaan-m/ECC/tree/main/skills/market-research",
+    "commit": "8321021c54d670126ce3b2969d5deb880b4b0c2a",
+    "sha256": "c51b2cd7a66c569b843c44e0dddf1e0efccdc46d971b4ddc547cd2af50de73a1",
+    "license_spdx": "MIT",
+    "license_source_url": "https://github.com/affaan-m/ECC/blob/main/LICENSE"
+  },
+  "derivative": {
+    "sha256": "6160f3d8a43c14adf5a82e6da31bc70754cf0857e9af4363d8f22b985a145ff4",
+    "changed_files": [
+      "SKILL.md"
+    ],
+    "modifications": [
+      "Declared read-only file and public web research tools.",
+      "Removed ambiguous cross-reference wording.",
+      "Rephrased TAM, SAM, and SOM to avoid a false local-path interpretation.",
+      "Preserved the upstream MIT license unchanged."
+    ]
+  },
+  "prepared_at": "2026-09-15T03:56:03.537Z"
+}
