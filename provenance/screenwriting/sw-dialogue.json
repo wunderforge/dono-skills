@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "name": "sw-dialogue",
+  "published_path": "screenwriting/sw-dialogue",
+  "upstream": {
+    "url": "https://github.com/jtydhr88/screenwriting-skills/tree/a152b8c055be36cbb741ed2d13a8dd4a84c26902/plugins/screenwriting/skills/sw-dialogue",
+    "commit": "a152b8c055be36cbb741ed2d13a8dd4a84c26902",
+    "sha256": "b395b907ca7559d81b3abaaca4099ab2adcfcf1b9bc78b3675a1e9b31cc3e2b7",
+    "license_spdx": "MIT",
+    "license_source_url": "https://github.com/jtydhr88/screenwriting-skills/blob/main/LICENSE"
+  },
+  "derivative": {
+    "sha256": "b6e7c1aea60a553e394b31d8493756a895177295a0b003496ce79c12dd486929",
+    "changed_files": [
+      "SKILL.md",
+      "reference.md",
+      "terms.md"
+    ],
+    "modifications": [
+      "Preserved upstream MIT license and substantive screenwriting content.",
+      "Wrapped descriptions as YAML block scalars; spaced prose slash separators so they are not mistaken for filesystem references.",
+      "Included the shared terminology reference locally and marked unrelated optional opera modules as outside this independent package.",
+      "In the series module only, replaced two literary quotes with labelled paraphrases to remove ambiguous security-tool vocabulary; no scanner suppression."
+    ]
+  },
+  "prepared_at": "2026-09-15T04:28:27.644Z"
+}
