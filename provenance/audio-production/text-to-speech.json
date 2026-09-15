@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "name": "text-to-speech",
+  "published_path": "audio-production/text-to-speech",
+  "upstream": {
+    "url": "https://github.com/elevenlabs/skills/tree/main/text-to-speech",
+    "commit": "9edcbd4b80ed57b8e07a3f86ea520333969fbc3c",
+    "sha256": "961ac9b2a295447dd8edde8c9b940e338402990272a5712d39686ceac293d8cc",
+    "license_spdx": "MIT",
+    "license_source_url": "https://github.com/elevenlabs/skills/blob/main/LICENSE"
+  },
+  "derivative": {
+    "sha256": "5fe183b9089f1f624cec584785845de0ca01585ff090807091264d278c795d10",
+    "changed_files": [
+      "SKILL.md",
+      "guide.md",
+      "references/installation.md",
+      "references/streaming.md"
+    ],
+    "modifications": [
+      "Kept original generation feature documentation in a scanned guide; narrowed the entrypoint to explicit production authorization and rights gates.",
+      "Removed remote installer execution and inline credential configuration; user handles authentication privately.",
+      "Declared network documentation capability. For TTS, replaced low-level credential-file-loading WebSocket setup with an authenticated-transport integration contract while retaining streaming SDK examples, message protocol, timing and alignment guidance.",
+      "Preserved LICENSE.upstream, added no scanner exceptions, and performed no paid API calls."
+    ]
+  },
+  "prepared_at": "2026-09-15T04:54:09.025Z"
+}
